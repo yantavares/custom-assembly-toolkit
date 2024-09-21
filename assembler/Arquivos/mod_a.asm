@@ -1,0 +1,13 @@
+mod_a: BEGIN
+Y: EXTERN          ; valor = 10
+MOD_B: EXTERN
+L3: EXTERN
+PUBLIC VAL
+PUBLIC L1
+OUTPUT K           ; = 8
+OUTPUT Y           ; = 10
+JMP MOD_B
+L1: STOP
+VAL: CONST 5
+K: CONST 8
+END
