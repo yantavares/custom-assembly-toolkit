@@ -1,4 +1,4 @@
-# Hypothetical Assembly Toolkit
+# Liasm Assembly Toolkit
 
 :brazil: **For Portuguese version, read [README-pt.md](README-pt.md).**
 
@@ -6,7 +6,7 @@
 
 ## Overview
 
-The Hypothetical Assembly Toolkit is a comprehensive solution for working with the liasm assembly language and transpilating it to IA-32 assembly. The toolkit includes two main components:
+The Custom Assembly Toolkit is a comprehensive solution for working with the liasm assembly language and transpilating it to IA-32 assembly. The `Liasm` assembly language is a hypothetical assembly language created at UnB. The toolkit includes two main components:
 
 1. **Assembler (+ linker)**: Converts liasm source code into machine code for the hypothetical architecture. It also links 2 object files into a single executable.
 2. **Transpiler**: Translates liasm assembly code into IA-32 assembly language.
