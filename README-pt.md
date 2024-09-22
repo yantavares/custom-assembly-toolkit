@@ -1,6 +1,6 @@
 # Toolkit de Assembly Liasm
 
-:brazil: **Para a versão em português, leia o [README-pt.md](README-pt.md).**
+**Para a versão em inglês, leia o [README.md](README.md).**
 
 **Nota:** Se este repositório foi útil para você, por favor deixe uma :star: no repositório :)
 
