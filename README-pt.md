@@ -50,8 +50,8 @@ Este conjunto de instruções, embora minimalista, é completo, permitindo a imp
 | INPUT      | 12     | 2                  | `mem(OP) <- entrada`                                    |
 | OUTPUT     | 13     | 2                  | `saída <- mem(OP)`                                      |
 | STOP       | 14     | 1                  | Suspende a execução                                     |
-| S_INPUT*   | 15     | 1                  | Recebe um rótulo para entrada e número de bytes a ler   |
-| S_OUTPUT*  | 16     | 1                  | Recebe um rótulo para saída e número de bytes a escrever|
+| S_INPUT*   | 15     | 3                  | Recebe um rótulo para entrada e número de bytes a ler   |
+| S_OUTPUT*  | 16     | 3                  | Recebe um rótulo para saída e número de bytes a escrever|
 
 \* *S_INPUT e S_OUTPUT são chamadas de sistema que interagem com o transpilador e não funcionam no assembler.*
 
