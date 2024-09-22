@@ -1,10 +1,12 @@
-# Toolkit de Assembly Hipotético
+# Toolkit de Assembly Liasm
 
 **Para a versão em inglês, leia o [README.md](README.md).**
 
+**Nota:** Se este repositório foi útil para você, por favor deixe uma :star: no repositório :)
+
 ## Visão Geral
 
-O Toolkit de Assembly Hipotético é uma solução abrangente para trabalhar com a linguagem assembly liasm e transpilá-la para assembly IA-32. O toolkit inclui dois componentes principais:
+O Toolkit de Assembly Personalizado é uma solução abrangente para trabalhar com a linguagem assembly liasm e transpilar para assembly IA-32. Esta linguagem é uma linguagem assembly hipotética criada na UnB. A linguagem em si não possui um nome, então eu tomei a liberdade de chamá-la de `Liasm`. O toolkit inclui dois componentes principais:
 
 1. **Assembler (+ linker)**: Converte o código-fonte liasm em código de máquina para a arquitetura hipotética. Também liga 2 arquivos-objeto em um único executável.
 2. **Transpilador**: Transpila o código assembly liasm para linguagem assembly IA-32.

@@ -1,13 +1,15 @@
-# Hypothetical Assembly Toolkit
+# Liasm Assembly Toolkit
 
 ![Stars](https://img.shields.io/github/stars/yantavares/custom-assembly-toolkit)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 :brazil: **For Portuguese version, read [README-pt.md](README-pt.md).**
 
+**Note:** If this repository helped you, please leave a :star: on the repo :)
+
 ## Overview
 
-The Hypothetical Assembly Toolkit is a comprehensive solution for working with the liasm assembly language and transpilating it to IA-32 assembly. The toolkit includes two main components:
+The Custom Assembly Toolkit is a comprehensive solution for working with the liasm assembly language and transpilating it to IA-32 assembly. The said language is a hypothetical assembly language created at UnB. The language itself has no name, and so I took the liberty to call it `Liasm`. The toolkit includes two main components:
 
 1. **Assembler (+ linker)**: Converts liasm source code into machine code for the hypothetical architecture. It also links 2 object files into a single executable.
 2. **Transpiler**: Translates liasm assembly code into IA-32 assembly language.
