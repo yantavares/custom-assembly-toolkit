@@ -53,8 +53,8 @@ This minimal yet complete instruction set allows the implementation of various a
 | INPUT      | 12     | 2            | `mem(OP) <- input`                                      |
 | OUTPUT     | 13     | 2            | `output <- mem(OP)`                                     |
 | STOP       | 14     | 1            | Suspends execution                                      |
-| S_INPUT*   | 15     | 1            | Receives a label to input and number of bytes to read   |
-| S_OUTPUT*  | 16     | 1            | Receives a label to output and number of bytes to write |
+| S_INPUT*   | 15     | 3            | Receives a label to input and number of bytes to read   |
+| S_OUTPUT*  | 16     | 3            | Receives a label to output and number of bytes to write |
 
 \* *S_INPUT and S_OUTPUT are system calls that interact with the transpiler and do not work in the assembler.*
 
