@@ -2,6 +2,8 @@
 
 **Para a versão em inglês, leia o [README.md](README.md).**
 
+**Observação:** Se este repositório foi útil para você, por favor deixe uma :star: no repositório :)
+
 ## Visão Geral
 
 O Toolkit de Assembly Hipotético é uma solução abrangente para trabalhar com a linguagem assembly liasm e transpilá-la para assembly IA-32. O toolkit inclui dois componentes principais:
