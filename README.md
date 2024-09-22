@@ -1,5 +1,8 @@
 # Hypothetical Assembly Toolkit
 
+![Stars](https://img.shields.io/github/stars/yantavares/custom-assembly-toolkit)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
 :brazil: **For Portuguese version, read [README-pt.md](README-pt.md).**
 
 ## Overview
@@ -8,6 +11,7 @@ The Hypothetical Assembly Toolkit is a comprehensive solution for working with t
 
 1. **Assembler (+ linker)**: Converts liasm source code into machine code for the hypothetical architecture. It also links 2 object files into a single executable.
 2. **Transpiler**: Translates liasm assembly code into IA-32 assembly language.
+3. **Two Pass Assembler**: Converts liasm source code into machine code for the hypothetical architecture in two passes (project made for fun, not part of the class).
 
 This repository serves as a central hub, providing an entry point to both tools, along with detailed documentation and usage instructions.
 
@@ -70,6 +74,8 @@ Comments in liasm start with a semicolon (`;`). Everything following the `;` on 
 The assembler translates liasm source code into the machine code of the hypothetical architecture. It operates in a single-pass compilation process, ensuring a straightforward and efficient conversion.
 
 **[Assembler README](assembler/README.md)**: Detailed information on the assembler can be found in the `assembler` folder.
+
+For the two-pass assembler, see [Two Pass Assembler README](two-pass-assembler/README.md).
 
 ### 2. Transpiler
 The transpiler converts liasm assembly code into IA-32 assembly language, allowing the hypothetical programs to be executed on x86 architectures. Input and output operations in the transpiled code are implemented using IA-32 assembly instructions, ensuring compatibility with standard x86 I/O mechanisms.

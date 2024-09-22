@@ -8,6 +8,7 @@ O Toolkit de Assembly Hipotético é uma solução abrangente para trabalhar com
 
 1. **Assembler (+ linker)**: Converte o código-fonte liasm em código de máquina para a arquitetura hipotética. Também liga 2 arquivos-objeto em um único executável.
 2. **Transpilador**: Transpila o código assembly liasm para linguagem assembly IA-32.
+3. **Assembler de duas passagens**: Uma versão do assembler que opera em duas passagens, feito por diversão (não faz parte da disciplina).
 
 Este repositório serve como um ponto de entrada central, fornecendo documentação detalhada e instruções de uso para ambas as ferramentas.
 
@@ -70,6 +71,8 @@ Comentários no liasm começam com um ponto e vírgula (`;`). Tudo o que segue o
 O assembler traduz o código-fonte liasm para o código de máquina da arquitetura hipotética. Ele opera em um processo de compilação de passagem única, garantindo uma conversão direta e eficiente.
 
 **[Assembler README](assembler/README.md)**: Informações detalhadas sobre o assembler podem ser encontradas na pasta `assembler`.
+
+Para a versão de duas passagens do assembler, consulte [Two Pass Assembler README](two-pass-assembler/README.md).
 
 ### 2. Transpilador
 O transpilador converte o código assembly liasm em linguagem assembly IA-32, permitindo que programas hipotéticos sejam executados em arquiteturas x86. As operações de entrada e saída no código transpilado são implementadas usando instruções assembly IA-32, garantindo compatibilidade com os mecanismos de I/O padrão do x86.
