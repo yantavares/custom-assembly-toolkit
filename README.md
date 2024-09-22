@@ -105,5 +105,5 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Acknowledgments
 
-Special thanks to (Guts_Santana)[https://github.com/Guts-Santana] for making this project possible.
+Special thanks to [Guts_Santana](https://github.com/Guts-Santana) for making this project possible.
 
