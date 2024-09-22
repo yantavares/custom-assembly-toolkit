@@ -2,6 +2,8 @@
 
 :brazil: **For Portuguese version, read [README-pt.md](README-pt.md).**
 
+**Note:** If this repository helped you, please leave a :star: on the repo :)
+
 ## Overview
 
 The Hypothetical Assembly Toolkit is a comprehensive solution for working with the liasm assembly language and transpilating it to IA-32 assembly. The toolkit includes two main components:
